@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif, Verdana, Arial;
+	}
+
+h1 {
+	text-align: center;
+	margin-top: 5%;
+	color: #005CE6;
+	font-size: 150%;
+}
+
+.skills-list {
+	list-style: none;
+	text-align: left;
+	margin-top: 5%;
+}
+
+p {
+	padding: 20px;
+}
+
+	
