@@ -19,4 +19,159 @@ p {
 	padding: 20px;
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 300px)
+{
+	h1 {
+		text-align: left;
+		font-size: .75em;
+		margin-top: 2%;
+		color: #FFFF;
+	}	
+	
+	.top-p {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 10%;
+    font-size: .5em;
+    line-height: .5em;
+    color: #FFFF;
+  }
+
+  .bot-p {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 10%;
+    font-size:.5em;
+    line-height: .5em;
+    color: #FFFF;
+  }
+	
+	.skills-list {
+		list-style: none;
+		text-align: center;
+		margin-top: 3%;
+		font-size: .5em;
+	}
+	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+	.top-p {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: .75em;
+    line-height: 1em;
+    color: #FFFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: .75em;
+    line-height: 1em;
+    color: #FFFF;
+  }
+	
+	h1 {
+		text-align: center;
+		font-size: 4em;
+		margin-top: 3%;
+		color: #FFFF;
+	}
+	
+
+	.skills-list {
+		list-style: none;
+		text-align: center;
+		margin-top: 3%;
+		font-size: .5em;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+	.top-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #FFFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #FFFF;
+  }
+	
+	h1 {
+		text-align: center;
+		font-size: 5em;
+		margin-top: 5%;
+		color: #FFFF;
+	}
+	
+	.skills-list {
+		list-style: none;
+		text-align: center;
+		margin-top: 3%;
+		font-size: 1.5em;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	.top-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em;
+    line-height: 1em;
+    color: #FFFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em;
+    line-height: 1em;
+    color: #FFFF;
+  }
+	
+	h1 {
+		text-align: center;
+		font-size: 2em;
+		margin-top: 3%;
+		color: #FFFF;
+	}
+	
+	.skills-list {
+		list-style: none;
+		text-align: center;
+		margin-top: 4%;
+		font-size: 2em;
+	}
+}
+
 	
