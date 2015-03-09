@@ -2,36 +2,60 @@
 <html>
 	<head>
 		<title>Keith Smith</title>
-		<link href="css/styles.css" type="text/css" rel="stylesheet" />
 		<meta name="description" content="This is my personal website showcasing my work history and experience."/>
 		<meta name="keywords" content="resume, portfolio, databases, sql, .net, software testing"/>
 		<meta name="author" content="Keith Smith"/>
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:url" content="https://github.com/HarryPalmer"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
+		 <!-- Bootstrap theme -->
+		<link href="../../dist/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="jumbotron.css" rel="stylesheet">
+		<link href="theme.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container">
-			<h1> About Me </h1>
-			<!--This is the About Me Section of the website -->
-			<p class="top-p">My name is Keith Smith and I am a student at the University of Toledo focusing on an
-			Interdisciplinary Studies major. I am also a Data Analyst at a health care company located in Cleveland, Ohio.
-			I have a lot of experience with databases, software testing, systems administration, and software development.
-			Here are some of the skills I have become proficient in:</p>
-			<ul class="skills-list">
-				<li>SQL Server</li>
-				<li>SSMS (SQL Server Management Studio)</li>
-				<li>Visual Studio .NET</li>
-				<li>HP Quality Center</li>
-			</ul>
-			<p class="bot-p">In addition to the above, I also enjoy running marathons, listening to music
-			and spending time with my family. </p>
-		</div>
-		<div>
-			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=North%20Engineering%2C%20Toledo%2C%20OH%2043607&key=AIzaSyB8yUc-IoaNJ57CR6Pt9HPxmIvXXIzNwzY"></iframe>
-		</div>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				  </ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+			<div class = "body-container">
+				<div class="about" id="about">
+					<h1> About Me </h1>
+					<!--This is the About Me Section of the website -->
+					<p class="top-p">My name is Keith Smith and I am a student at the University of Toledo focusing on an
+					Interdisciplinary Studies major. I am also a Data Analyst at a health care company located in Cleveland, Ohio.
+					I have a lot of experience with databases, software testing, systems administration, and software development.
+					Here are some of the skills I have become proficient in:</p>
+					<ul class="skills-list">
+						<li>SQL Server</li>
+						<li>SSMS (SQL Server Management Studio)</li>
+						<li>Visual Studio .NET</li>
+						<li>HP Quality Center</li>
+					</ul>
+					<p class="bot-p">In addition to the above, I also enjoy running marathons, listening to music
+					and spending time with my family. </p>
+				</div>
+			</div>
+		<div class="contact" id="contact">
 		<fieldset>
 			<legend> Contact Details </legend>
-			<div class="contact">
+			<div class="contact" id="contact">
 				<div class="contact-left">
 					<div id="form-main">
 					  <div id="form-div">
@@ -68,7 +92,8 @@
 							<textarea name="text" class="contact-input" id="comment" placeholder="Comments"></textarea>
 						  </p>
 						  <div class="submit">
-							<input type="submit" value="SEND" id="button-blue"/>
+							<input type="submit" class="btn btn-default" value="Submit"></>
+							<div class="ease"></div>
 						  </div>
 						</form>
 					  </div>
@@ -76,5 +101,6 @@
 			  </div>
 			</div>
 		</fieldset>
+		</div>
 	</body>
 </html>

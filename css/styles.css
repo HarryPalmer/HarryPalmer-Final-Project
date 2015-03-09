@@ -2,9 +2,13 @@ body {
 	font-family: sans-serif, Verdana, Arial;
 	}
 
+.navbar-inverse {
+	background-color: #0D2B21;
+}
+
 h1 {
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 8%;
 	color: #005CE6;
 	font-size: 150%;
 }
@@ -23,9 +27,9 @@ p {
 @media only screen and (min-width : 300px)
 {
 	h1 {
-		text-align: left;
-		font-size: .75em;
-		margin-top: 2%;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 10%;
 		color: #FFFF;
 	}	
 	
@@ -34,8 +38,8 @@ p {
     margin-top: 10%;
     margin-left: 3%;
     margin-right: 10%;
-    font-size: .5em;
-    line-height: .5em;
+    font-size: 1em;
+    line-height: 1em;
     color: #FFFF;
   }
 
@@ -44,8 +48,8 @@ p {
     margin-top: 5%;
     margin-left: 3%;
     margin-right: 10%;
-    font-size:.5em;
-    line-height: .5em;
+    font-size: 1em;
+    line-height: 1em;
     color: #FFFF;
   }
 	
@@ -53,8 +57,48 @@ p {
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
-		font-size: .5em;
+		font-size: 1em;
 	}
+	.contact-input {
+		color:#3c3c3c;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight:500;
+		font-size: 1em;
+		line-height: 1em;
+		background-color: #fbfbfb;
+		padding: 3px 3px 3px 3px;
+		margin-bottom: 8px;
+		width:100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 2px solid rgba(0,0,0,0);
+	}
+
+	.contact-input:focus{
+		background: #fff;
+		box-shadow: 0;
+		border: 2px solid #3498db;
+		color: #3498db;
+		outline: none;
+		padding: 8px 8px 8px 8px;
+	}
+	.ease {
+		width: 0px;
+		height: 2em;
+		background-color: #fbfbfb;
+		-webkit-transition: .3s ease;
+		-moz-transition: .3s ease;
+		-o-transition: .3s ease;
+		-ms-transition: .3s ease;
+		transition: .3s ease;
+	}
+	.submit:hover .ease{
+		width:100%;
+		background-color:white;
+	}
+  }
 	
 	
 }
@@ -67,7 +111,7 @@ p {
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: .75em;
+    font-size: 2em;
     line-height: 1em;
     color: #FFFF;
   }
@@ -77,15 +121,15 @@ p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: .75em;
+    font-size: 2em;
     line-height: 1em;
     color: #FFFF;
   }
 	
 	h1 {
 		text-align: center;
-		font-size: 4em;
-		margin-top: 3%;
+		font-size: 3em;
+		margin-top: 8%;
 		color: #FFFF;
 	}
 	
@@ -94,7 +138,46 @@ p {
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
-		font-size: .5em;
+		font-size: 2em;
+	}
+	.contact-input {
+		color:#3c3c3c;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight:500;
+		font-size: 2em;
+		line-height: 2em;
+		background-color: #fbfbfb;
+		padding: 9px 9px 9px 9px;
+		margin-bottom: 9px;
+		width:100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 3px solid rgba(0,0,0,0);
+	}
+
+	.contact-input:focus{
+		background: #fff;
+		box-shadow: 0;
+		border: 3px solid #3498db;
+		color: #3498db;
+		outline: none;
+		padding: 9px 9px 9px 9px;
+	}
+	.ease {
+		width: 0px;
+		height: 2em;
+		background-color: #fbfbfb;
+		-webkit-transition: .3s ease;
+		-moz-transition: .3s ease;
+		-o-transition: .3s ease;
+		-ms-transition: .3s ease;
+		transition: .3s ease;
+	}
+	.submit:hover .ease{
+		width:100%;
+		background-color:white;
 	}
 }
 
@@ -106,7 +189,7 @@ p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1em;
     color: #FFFF;
   }
@@ -116,15 +199,15 @@ p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1em;
     color: #FFFF;
   }
 	
 	h1 {
 		text-align: center;
-		font-size: 5em;
-		margin-top: 5%;
+		font-size: 3em;
+		margin-top: 8%;
 		color: #FFFF;
 	}
 	
@@ -132,7 +215,46 @@ p {
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
-		font-size: 1.5em;
+		font-size: 2em;
+	}
+	.contact-input {
+		color:#3c3c3c;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight:500;
+		font-size: 2em;
+		line-height: 2em;
+		background-color: #fbfbfb;
+		padding: 11px 11px 11px 11px;
+		margin-bottom: 10px;
+		width:100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 3px solid rgba(0,0,0,0);
+	}
+
+	.contact-input:focus{
+		background: #fff;
+		box-shadow: 0;
+		border: 3px solid #3498db;
+		color: #3498db;
+		outline: none;
+		padding: 11px 11px 11px 11px;
+	}
+	.ease {
+		width: 0px;
+		height: 3em;
+		background-color: #fbfbfb;
+		-webkit-transition: .3s ease;
+		-moz-transition: .3s ease;
+		-o-transition: .3s ease;
+		-ms-transition: .3s ease;
+		transition: .3s ease;
+	}
+	.submit:hover .ease{
+		width:100%;
+		background-color:white;
 	}
 }
 
@@ -144,7 +266,7 @@ p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1em;
     color: #FFFF;
   }
@@ -154,15 +276,15 @@ p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1em;
     color: #FFFF;
   }
 	
 	h1 {
 		text-align: center;
-		font-size: 2em;
-		margin-top: 3%;
+		font-size: 4em;
+		margin-top: 8%;
 		color: #FFFF;
 	}
 	
@@ -170,7 +292,46 @@ p {
 		list-style: none;
 		text-align: center;
 		margin-top: 4%;
-		font-size: 2em;
+		font-size: 3em;
+	}
+	.contact-input {
+		color:#3c3c3c;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight:500;
+		font-size: 3em;
+		line-height: 3em;
+		background-color: #fbfbfb;
+		padding: 13px 13px 13px 13px;
+		margin-bottom: 10px;
+		width:100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 3px solid rgba(0,0,0,0);
+	}
+
+	.contact-input:focus{
+		background: #fff;
+		box-shadow: 0;
+		border: 3px solid #3498db;
+		color: #3498db;
+		outline: none;
+		padding: 13px 13px 13px 13px;
+	}
+	.ease {
+		width: 0px;
+		height: 4em;
+		background-color: #fbfbfb;
+		-webkit-transition: .3s ease;
+		-moz-transition: .3s ease;
+		-o-transition: .3s ease;
+		-ms-transition: .3s ease;
+		transition: .3s ease;
+	}
+	.submit:hover .ease{
+		width:100%;
+		background-color:white;
 	}
 }
 
