@@ -101,9 +101,6 @@ p {
 		padding: 3px 3px 3px 3px;
 		margin-bottom: 8px;
 		width:100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
 		box-sizing: border-box;
 		border: 2px solid rgba(0,0,0,0);
 	}
@@ -120,10 +117,6 @@ p {
 		width: 0px;
 		height: 2em;
 		background-color: #fbfbfb;
-		-webkit-transition: .3s ease;
-		-moz-transition: .3s ease;
-		-o-transition: .3s ease;
-		-ms-transition: .3s ease;
 		transition: .3s ease;
 	}
 	.submit:hover .ease{
@@ -192,9 +185,6 @@ p {
 		padding: 9px 9px 9px 9px;
 		margin-bottom: 9px;
 		width:100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
 		box-sizing: border-box;
 		border: 3px solid rgba(0,0,0,0);
 	}
@@ -211,10 +201,6 @@ p {
 		width: 0px;
 		height: 2em;
 		background-color: #fbfbfb;
-		-webkit-transition: .3s ease;
-		-moz-transition: .3s ease;
-		-o-transition: .3s ease;
-		-ms-transition: .3s ease;
 		transition: .3s ease;
 	}
 	.submit:hover .ease{
@@ -281,9 +267,6 @@ p {
 		padding: 11px 11px 11px 11px;
 		margin-bottom: 10px;
 		width:100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
 		box-sizing: border-box;
 		border: 3px solid rgba(0,0,0,0);
 	}
@@ -300,10 +283,6 @@ p {
 		width: 0px;
 		height: 3em;
 		background-color: #fbfbfb;
-		-webkit-transition: .3s ease;
-		-moz-transition: .3s ease;
-		-o-transition: .3s ease;
-		-ms-transition: .3s ease;
 		transition: .3s ease;
 	}
 	.submit:hover .ease{
@@ -370,9 +349,6 @@ p {
 		padding: 13px 13px 13px 13px;
 		margin-bottom: 10px;
 		width:100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
 		box-sizing: border-box;
 		border: 3px solid rgba(0,0,0,0);
 	}
@@ -393,10 +369,6 @@ p {
 		width: 0px;
 		height: 4em;
 		background-color: #fbfbfb;
-		-webkit-transition: .3s ease;
-		-moz-transition: .3s ease;
-		-o-transition: .3s ease;
-		-ms-transition: .3s ease;
 		transition: .3s ease;
 	}
 	.submit:hover .ease{
