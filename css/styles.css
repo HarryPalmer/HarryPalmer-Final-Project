@@ -5,6 +5,7 @@ body {
 	
 header {
 	/*background-image:url("../images/bkgrnd-header2.jpg");*/
+	/*background-image:url("../images/Holagram-man.jpg");*/
 	background-position:top center;
 	background-repeat:no-repeat;
 	width: 100%;
@@ -179,7 +180,7 @@ p {
 		font-family: 'Sigmar One', cursive;
 		text-align: center;
 		font-size: 1.5em;
-		margin-top: 10%;
+		margin-top: 2%;
 		color: #FFFF;
 	}	
 	
